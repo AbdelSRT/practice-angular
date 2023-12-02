@@ -1,0 +1,25 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.upperBack{
+    background-color:  #bcb3b3;
+    min-height: 7.5rem;
+    min-width: 100%
+
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.cen{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+};

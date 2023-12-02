@@ -1,0 +1,16 @@
+.cen{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+};
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    color: rgb(226, 15, 121);
+    display: flex;
+    justify-content: center;
+    opacity: 80%;
+}

@@ -1,0 +1,17 @@
+<div class="upperBack">
+  <nav class="nav">
+    <app-styled-button (click)="router.navigate([''])">Home</app-styled-button>
+    <app-styled-button (click)="router.navigate(['store'])">Store</app-styled-button>
+    <app-styled-button (click)="router.navigate(['contact'])">Contact</app-styled-button>
+  </nav>
+  <div class="title">
+    <h1>My First Angular Project</h1>
+  </div>
+</div>
+<div class="cen">
+  <app-styled-button (click)="router.navigate(['populair'])">Populaire producten</app-styled-button>
+  <app-styled-button (click)="router.navigate(['aanbevolen'])">Aanbevolen producten</app-styled-button>
+  <app-styled-button (click)="router.navigate(['nieuw'])">Nieuwe producten</app-styled-button>
+</div>
+
+<router-outlet></router-outlet>
